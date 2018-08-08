@@ -20,7 +20,7 @@ li {
   display: inline;
 }
 
-a {
+nav ul li a {
   color: #030303;
   text-decoration: none;
   display: block, inline;
@@ -33,13 +33,4 @@ nav ul li a:hover {
 
 active {
   background-color: green;  
-}
-
-container {
-  background-color: gray;
-  width: 300px;
-  height: 150px;
-  -moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-	border-radius: 10px;
 }
