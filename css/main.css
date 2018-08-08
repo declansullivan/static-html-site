@@ -25,7 +25,7 @@ a {
   padding-right: 20px;
 }
 
-a:hover {
+nav ul li a:hover {
   color: #ffffff;
   text-decoration: underline;
 }
