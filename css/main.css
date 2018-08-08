@@ -15,6 +15,10 @@ ul {
   list-style: none;
 }
 
+li {
+  display: inline;
+}
+
 a {
   color: #030303;
   text-decoration: none;
