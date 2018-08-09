@@ -3,6 +3,14 @@ body {
   padding: 0;
 }
 
+.resume {
+  text-align: left;
+}
+
+.main {
+  text-align: center; 
+}
+
 nav {
   background-color: #BED8D4;
   text-align: center;
@@ -36,12 +44,4 @@ nav ul li a.active {
 
 img {
   width: 50%;
-}
-
-resume {
-  text-align: left;
-}
-
-main {
-  text-align: center; 
 }
