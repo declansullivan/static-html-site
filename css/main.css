@@ -31,7 +31,7 @@ nav ul li {
 nav ul li a {
   color: #030303;
   text-decoration: none;
-  display: inline-block;
+  display: block, inline;
   padding: 17px 20px;
 }
 
