@@ -31,8 +31,8 @@ nav ul li a:hover {
   color: #2081C3;
 }
 
-active {
-  background-color: green;  
+.active {
+  background-color: #ADC5C1;  
 }
 
 img {
