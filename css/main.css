@@ -5,6 +5,7 @@ body {
 
 .resume {
   text-align: left;
+  padding: 10px;
 }
 
 .main {
@@ -18,12 +19,12 @@ nav {
   padding: 1px;
 }
 
-ul {
+nav ul {
   font-family: "Helvetica";
   list-style: none;
 }
 
-li {
+nav ul li {
   display: inline;
 }
 
