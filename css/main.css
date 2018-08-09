@@ -3,13 +3,21 @@ body {
   padding: 0;
 }
 
+.main {
+  text-align: center; 
+}
+
 .resume {
   text-align: left;
   padding: 10px;
 }
 
-.main {
-  text-align: center; 
+.resume ul {
+  list-style: circle;
+}
+
+.resume ul li {
+  display: block;
 }
 
 nav {
@@ -31,7 +39,7 @@ nav ul li {
 nav ul li a {
   color: #030303;
   text-decoration: none;
-  display: block, inline;
+  display: inline-block;
   padding: 17px 20px;
 }
 
