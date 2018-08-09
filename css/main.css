@@ -4,7 +4,9 @@ body {
 }
 
 .main {
-  text-align: center; 
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .resume {
@@ -22,25 +24,22 @@ nav {
 nav ul {
   font-family: "Helvetica";
   list-style: none;
+  display: inline-block;
+  padding: 0;
 }
 
 nav ul li {
-  display: inline;
+  display: inline-block;
 }
 
 nav ul li a {
   color: #030303;
   text-decoration: none;
-  display: block, inline;
   padding: 17px 20px;
 }
 
 nav ul li a:hover {
   color: #2081C3;
-}
-
-nav ul li a.active {
-  background-color: #ADC5C1;  
 }
 
 img {
