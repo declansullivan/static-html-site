@@ -51,16 +51,6 @@ nav ul li a:hover {
   color: #2081C3;
 }
 
-.backer {
-  position: fixed;
-  padding: 20px;
-  z-index: -1;
-}
-
-.backer img {
-  width: 100%;
-}
-
 .card {
   margin: 0 auto;
   background-color: white;
