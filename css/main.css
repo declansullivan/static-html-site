@@ -1,6 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
+  font-family: "Helvetica";
+  text-align: center;
   margin: 0;
-  padding: 0;
+  background-color: #E7E8E8;
 }
 
 .main {
@@ -22,17 +28,13 @@ body {
 }
 
 nav {
-  background-color: #BED8D4;
+  background-color: #364A5D;
   text-align: center;
-  position: relative;
   padding: 1px;
 }
 
 nav ul {
-  font-family: "Helvetica";
-  list-style: none;
   display: inline-block;
-  padding: 0;
 }
 
 nav ul li {
@@ -40,15 +42,29 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #030303;
+  color: #F9F8F8;
   text-decoration: none;
-  padding: 17px 20px;
+  padding: 17px 15px;
 }
 
 nav ul li a:hover {
   color: #2081C3;
 }
 
-img {
-  width: 50%;
+.backer {
+  position: fixed;
+  padding: 20px;
+  z-index: -1;
+}
+
+.backer img {
+  width: 100%;
+}
+
+.card {
+  margin: 0 auto;
+  background-color: white;
+  width: 97%;
+  padding: 20px;
+  margin-top: 20px;
 }
