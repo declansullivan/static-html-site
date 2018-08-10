@@ -11,7 +11,12 @@ body {
 
 .resume {
   text-align: left;
-  padding-left: 10px;
+  padding-left: 100px;
+}
+
+.coursework {
+  text-align: left;
+  padding-left: 100px;
 }
 
 nav {
