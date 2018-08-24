@@ -49,7 +49,7 @@ body {
   width: 90%;
 }
 
-img {
+.home {
   width: 70%;
   padding: 50px;
 }
@@ -95,5 +95,9 @@ img {
     border-top-style: none;
     width: 100%;
     top: -50px;
+  }
+  
+  .home {
+    width: 100%;
   }
 }
