@@ -30,14 +30,26 @@ body {
 }
 
 .heading {
-  margin: 0 auto;
+  z-index: 1;
   position: relative;
-  padding: 1px;
+  margin: 0 auto;
+  top: 15px;
   color: black;
-  width: 52.9%;
+  background: white;
+  width: 30%;
+}
+
+.imgborder {
+  z-index: -1;
+  position: relative;
+  margin: 0 auto;
+  top: -25px;
+  border-top-style: solid;
+  border-top-width: thin;
+  width: 90%;
 }
 
 img {
-  width: 55%;
-  padding: 20px;
+  width: 70%;
+  padding: 50px;
 }
