@@ -85,7 +85,15 @@ img {
 }
 
 @media only screen and (max-width:620px) {
-  .heading, .imgborder {
+  .heading {
+    top: -5px;
     width: 100%;
+    font-size: 100%;
+  }
+  
+  .imgborder {
+    border-top-style: none;
+    width: 100%;
+    top: -50px;
   }
 }
