@@ -2,39 +2,8 @@
     box-sizing: border-box;
 }
 
-body {
-  font-family: "Helvetica";
-  text-align: center;
-  margin: 0;
-  background-color: #E7E8E8;
-}
-
-.main {
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
-
-.resume {
-  text-align: left;
-  margin-left: 100px;
-  margin-right: 100px;
-}
-
-.coursework {
-  text-align: left;
-  margin-left: 100px;
-  margin-right: 100px;
-}
-
-nav {
-  background-color: #364A5D;
-  text-align: center;
-  padding: 1px;
-}
-
 nav ul {
-  display: inline-block;
+  padding: 0;
 }
 
 nav ul li {
@@ -42,19 +11,33 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #F9F8F8;
+  color: black;
   text-decoration: none;
   padding: 17px 15px;
+  opacity: 0.9;
 }
 
 nav ul li a:hover {
   color: #2081C3;
 }
 
-.card {
+body {
+  font-family: "Helvetica";
+  font-style: normal;
+  text-align: center;
+  text-decoration: none;
+  margin: 0;
+}
+
+.heading {
   margin: 0 auto;
-  background-color: white;
-  width: 97%;
+  position: relative;
+  top: 5px;
+  color: black;
+  width: 52.9%;
+}
+
+img {
+  width: 55%;
   padding: 20px;
-  margin-top: 20px;
 }
