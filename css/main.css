@@ -53,3 +53,39 @@ img {
   width: 70%;
   padding: 50px;
 }
+
+@media only screen and (max-width:1140px) {
+  .heading {
+    font-size: 80%;
+  }
+  
+  .imgborder {
+    top: -17px;
+  }
+}
+
+@media only screen and (max-width:1000px) {
+  .heading {
+    font-size: 70%;
+  }
+  
+  .imgborder {
+    top: -13px;
+  }
+}
+
+@media only screen and (max-width:800px) {
+  .heading {
+    font-size: 60%;
+  }
+  
+  .imgborder {
+    top: -10px;
+  }
+}
+
+@media only screen and (max-width:620px) {
+  .heading, .imgborder {
+    width: 100%;
+  }
+}
