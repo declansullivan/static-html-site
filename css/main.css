@@ -32,7 +32,7 @@ body {
 .heading {
   margin: 0 auto;
   position: relative;
-  top: 5px;
+  padding: 1px;
   color: black;
   width: 52.9%;
 }
