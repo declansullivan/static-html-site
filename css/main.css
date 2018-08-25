@@ -1,3 +1,5 @@
+/* OVERARCHING CSS */
+
 * {
     box-sizing: border-box;
 }
@@ -29,6 +31,8 @@ body {
   margin: 0 auto;
 }
 
+/* Home Page CSSs */
+
 .heading {
   z-index: 10;
   position: relative;
@@ -39,7 +43,7 @@ body {
   width: 30%;
 }
 
-.imgborder {
+.centraldiv {
   z-index: 9;
   position: relative;
   margin: 0 auto;
@@ -71,12 +75,18 @@ body {
   text-decoration: none;
 }
 
+/* Resume CSS */
+
+
+
+/* Mobile CSS */
+
 @media only screen and (max-width:1140px) {
   .heading {
     font-size: 80%;
   }
   
-  .imgborder {
+  .centraldiv {
     top: -17px;
   }
 }
@@ -86,7 +96,7 @@ body {
     font-size: 70%;
   }
   
-  .imgborder {
+  .centraldiv {
     top: -13px;
   }
 }
@@ -96,7 +106,7 @@ body {
     font-size: 60%;
   }
   
-  .imgborder {
+  .centraldiv {
     top: -9px;
   }
 }
@@ -112,7 +122,7 @@ body {
     font-size: 100%;
   }
   
-  .imgborder {
+  .centraldiv {
     border-top-style: none;
     width: 100%;
     top: -50px;
