@@ -83,7 +83,8 @@ body {
   position: relative;
   margin: 0 auto;
   width: 70%;
-  padding: 50px;
+  padding: 20px;
+  top: 60px;
   font-size: 125%;
   font-weight: bold;
 }
