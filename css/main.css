@@ -26,11 +26,11 @@ body {
   font-style: normal;
   text-align: center;
   text-decoration: none;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .heading {
-  z-index: 1;
+  z-index: 10;
   position: relative;
   margin: 0 auto;
   top: 15px;
@@ -40,7 +40,7 @@ body {
 }
 
 .imgborder {
-  z-index: -1;
+  z-index: 9;
   position: relative;
   margin: 0 auto;
   top: -25px;
@@ -50,6 +50,8 @@ body {
 }
 
 .home {
+  position: relative;
+  margin: 0 auto;
   width: 70%;
   padding: 50px;
 }
@@ -58,10 +60,14 @@ body {
   position: relative;
   margin: 0 auto;
   width: 70%;
-  top: -30px;
   padding: 50px;
+  top: -30px;
   text-align: left;
   font-size: 110%;
+}
+
+.about a {
+  text-decoration: none;
 }
 
 @media only screen and (max-width:1140px) {
@@ -95,6 +101,10 @@ body {
 }
 
 @media only screen and (max-width:620px) {
+  nav ul li a {
+  padding: 17px 5px;
+  }
+  
   .heading {
     top: -5px;
     width: 100%;
@@ -113,5 +123,6 @@ body {
   
   .about {
     width: 100%;
+    top: -60px;
   }
 }
