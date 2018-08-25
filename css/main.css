@@ -54,6 +54,16 @@ body {
   padding: 50px;
 }
 
+.about {
+  position: relative;
+  margin: 0 auto;
+  width: 70%;
+  top: -30px;
+  padding: 50px;
+  text-align: left;
+  font-size: 110%;
+}
+
 @media only screen and (max-width:1140px) {
   .heading {
     font-size: 80%;
@@ -98,6 +108,10 @@ body {
   }
   
   .home {
+    width: 100%;
+  }
+  
+  .about {
     width: 100%;
   }
 }
