@@ -190,7 +190,7 @@ body {
   
   .about {
     width: 100%;
-    top: -60px;
+    padding-top: 20px;
   }
   
   .list ul {
