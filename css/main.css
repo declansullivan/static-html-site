@@ -55,19 +55,21 @@ body {
 
 /* Homepage CSS */
 
+.subimgborder {
+  padding: 50px;
+}
+
 .home {
   position: relative;
   margin: 0 auto;
   width: 70%;
-  padding: 50px;
 }
 
 .about {
   position: relative;
   margin: 0 auto;
   width: 70%;
-  padding: 50px;
-  top: -30px;
+  padding-top: 20px;
   text-align: left;
   font-size: 110%;
   line-height: 140%;
