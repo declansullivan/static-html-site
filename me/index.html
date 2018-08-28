@@ -10,9 +10,58 @@ title: Me
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
   
-<body>
+<script>
   
-  <div class="category">Coming Soon!</div>
+  function changeImages(x) {
+    if (x.id === 'sidi') {
+       x.src = "/css/interior.jpg";
+    }
+  }
+
+  function revertImages(x) {
+    if (x.id === 'sidi') {
+       x.src = "/css/vaporator.jpg";
+    }
+  }
+  
+</script>
+
+<header>
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/resume">Resume</a></li>
+      <li><a href="/coursework">Coursework</a></li>
+      <li><a href="https://github.com/declansullivan/" target="_blank">Github</a></li>
+      <li><a href="/me">Me</a></li>
+    </ul>
+  </nav>
+</header>
+  
+<body>
+    
+  <div class="centraldiv">
+
+    <div class="me">
+
+      <div class="moment">
+        <img src="/css/vaporator.jpg" id="sidi" onmouseenter="changeImages(this)" onmouseleave="revertImages(this)"></img>
+        <div class="content">
+          <h2>Vaporator at the Hotel Sidi Driss - 6/23/18</h2>
+          <p>
+            At the beginning of the summer of 2018 my father and I went on a trip to Tunisia to visit Star Wars filming 
+            locations. One stop along the way was the Hotel Sidi Driss in Matmata. This was where the interior shots of the 
+            Lars Homestead were filmed. It was great to see a little mock vaporator there, as well as hang out where Luke, 
+            Uncle Owen, and Aunt Beru all ate together when Luke complains about having to stay on for another season.
+          </p>
+        </div>
+      </div>
+
+      <hr>
+
+    </div>
+    
+  </div>
   
 </body>
   
