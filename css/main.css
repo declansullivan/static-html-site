@@ -76,7 +76,12 @@ body {
 }
 
 .about a {
+  color: #A3ABB0;
   text-decoration: none;
+}
+
+.about a:hover {
+  color: #525658;
 }
 
 /* Resume / Coursework CSS */
