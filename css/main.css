@@ -250,4 +250,8 @@ body {
   .content p {
     font-size: 70%;
   }
+    
+  .post {
+    width: 70%;
+  }
 }
