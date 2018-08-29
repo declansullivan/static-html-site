@@ -12,8 +12,11 @@ layout: about
 <body>
   
   <div class="post">
+    
+    <p class="posthead"> {{ page.post_title }} - {{ page.date | date_to_string }}</p>
 
-    {{ content }}
+    <p>{{ content }}</p>
+    
     
   </div>
   
