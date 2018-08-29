@@ -120,7 +120,7 @@ body {
   border-bottom-width: thin;
 }
 
-.me {
+.about {
   position: relative;
   margin: 0 auto;
   width: 70%;
@@ -218,11 +218,11 @@ body {
     width: 70%;
   }
   
-  .me {
+  .about {
     width: 100%;
   }
   
-  .me hr {
+  .about hr {
     width: 80%;
   }
   
