@@ -1,49 +1,19 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+---
 
-<head>
-  <title>{{ page.title }}</title>
-  <meta name="declan's site" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/css/main.css">
-</head>
-  
-<header>
+<body>
+
+<div class="secondnav">
   <nav>
     <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/resume">Resume</a></li>
-      <li><a href="/coursework">Coursework</a></li>
-      <li><a href="https://github.com/declansullivan/" target="_blank">Github</a></li>
-      <li><a href="/about">Me</a></li>
+      <li><a href="/about">Star Wars</a></li>
+      <li><a href="/about/personal">Personal</a></li>
+      <li><a href="/about/blog">Blog</a></li>
     </ul>
   </nav>
-</header>
-  
-<body>
-  <div class="container">
+</div>
 
-    <div class="heading">
-      <h1>{{ page.title }}</h1>
-    </div>
-    
-    <div class="centraldiv">
-    
-      <div class="secondnav">
-        <nav>
-          <ul>
-            <li><a href="/about">Star Wars</a></li>
-            <li><a href="/about/personal">Personal</a></li>
-            <li><a href="/about/blog">Blog</a></li>
-          </ul>
-        </nav>
-      </div>
-      
-      {{ content }}
-    
-    </div>
-
-  </div>
+{{ content }}
   
 </body>
-
-</html>
