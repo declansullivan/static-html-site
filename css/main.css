@@ -76,12 +76,7 @@ body {
 }
 
 .about a {
-  color: #A3ABB0;
   text-decoration: none;
-}
-
-.about a:hover {
-  color: #525658;
 }
 
 /* Resume / Coursework CSS */
@@ -111,7 +106,7 @@ body {
   left: 40px;
 }
 
-/* About CSS */
+/* Me CSS */
 
 .secondnav {
   position: relative;
@@ -133,8 +128,8 @@ body {
 }
 
 .moment img {
-  width: 70%;
   padding: 5px 0 0 0;
+  width: 70%;
 }
 
 .moment .content {
@@ -151,6 +146,23 @@ body {
   padding: 0 0 5px 0;
   border-bottom-style: solid;
   border-bottom-width: thin;
+}
+
+/* Blog CSS */
+
+.post {
+  position: relative;
+  margin: 0 auto;
+  width: 49%;
+}
+
+.post p {
+  text-align: left;
+}
+
+.post .posthead {
+  font-size: 120%;
+  text-align: center;
 }
 
 /* Mobile CSS */
