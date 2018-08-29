@@ -172,6 +172,7 @@ body {
 
 .post p {
   text-align: left;
+  line-height: 150%;
 }
 
 .post .posthead {
