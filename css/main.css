@@ -116,6 +116,7 @@ body {
 }
 
 .moment img {
+  padding: 5px 0 0 0;
   width: 70%;
 }
 
@@ -203,6 +204,10 @@ body {
   
   .me {
     width: 100%;
+  }
+  
+  .me hr {
+    width: 80%;
   }
   
   .content h2 {
