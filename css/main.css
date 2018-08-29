@@ -108,11 +108,23 @@ body {
 
 /* Me CSS */
 
+.secondnav {
+  position: relative;
+  margin: 0 auto;
+  width: 49%;
+  padding: 40px 0 0 0;
+}
+
+.secondnav nav {
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+}
+
 .me {
   position: relative;
   margin: 0 auto;
   width: 70%;
-  top: 60px;
+  top: 20px;
 }
 
 .moment img {
@@ -200,6 +212,10 @@ body {
   
   .hide {
     font-size: 0%;
+  }
+  
+  .secondnav {
+    width: 70%;
   }
   
   .me {
