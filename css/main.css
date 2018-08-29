@@ -76,7 +76,12 @@ body {
 }
 
 .about a {
+  color: #A3ABB0;
   text-decoration: none;
+}
+
+.about a:hover {
+  color: #525658;
 }
 
 /* Resume / Coursework CSS */
@@ -149,6 +154,21 @@ body {
 }
 
 /* Blog CSS */
+
+.postlist {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px 0 0 0;
+}
+
+.postlist a {
+  color: #A3ABB0;
+  text-decoration: none;
+}
+
+.postlist a:hover {
+  color: #525658;
+}
 
 .post {
   position: relative;
