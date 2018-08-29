@@ -134,10 +134,14 @@ body {
 }
 
 .moment img {
+  width: 70%;
   padding: 5px 0 0 0;
 }
 
 .moment .content {
+  position: relative;
+  margin: 0 auto;
+  width: 70%;
   padding: 1px 0 0 0;
   text-align: left;
   line-height: 150%;
