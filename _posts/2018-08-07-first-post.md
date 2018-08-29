@@ -1,12 +1,14 @@
 ---
 layout: post
-title: "Blog Post Test"
+title: BLOG
+post_title: Blog Post Test
 date: 2018-08-07
 ---
 
-{{ page.date }}
+{{ page.post_title }}
 
-<br>
+{{ page.date | page_to_string }}
+
 
 Hello world! Here is my first test of using GitHub pages to make a blog.  This should
 hopefully end up attached to my website, big thanks to Hank Quinlan's tutorial.
