@@ -2,6 +2,7 @@
 layout: about
 title: BLOG
 ---
+
 <!DOCTYPE html>
 <html>
   
@@ -12,7 +13,17 @@ title: BLOG
   
 <body>
   
-  
+  <ul class="posts">
+
+	  {% for post in site.posts %}
+	    <li>
+        <span class="eachpost">
+          <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date }}
+        </span>
+      </li>
+	  {% endfor %}
+    
+	</ul>
 
 </body>
   
