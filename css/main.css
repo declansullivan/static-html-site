@@ -155,18 +155,12 @@ body {
 
 /* Blog CSS */
 
-.postlist {
-  list-style-type: none;
-  margin: 0;
-  padding: 20px 0 0 0;
-}
-
-.postlist a {
+.post a {
   color: #A3ABB0;
   text-decoration: none;
 }
 
-.postlist a:hover {
+.post a:hover {
   color: #525658;
 }
 
@@ -183,6 +177,12 @@ body {
 .post .posthead {
   font-size: 120%;
   text-align: center;
+}
+
+.postlist {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px 0 0 0;
 }
 
 /* Mobile CSS */
