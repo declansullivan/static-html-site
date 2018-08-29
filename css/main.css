@@ -164,6 +164,15 @@ body {
   color: #525658;
 }
 
+.posthead a {
+  color: #A3ABB0;
+  text-decoration: none;
+}
+
+.posthead a:hover {
+  color: #525658;
+}
+
 .post {
   position: relative;
   margin: 0 auto;
