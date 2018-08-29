@@ -120,7 +120,7 @@ body {
   border-bottom-width: thin;
 }
 
-.about {
+.aboutpage {
   position: relative;
   margin: 0 auto;
   width: 70%;
@@ -224,11 +224,11 @@ body {
     width: 70%;
   }
   
-  .about {
+  .aboutpage {
     width: 100%;
   }
   
-  .about hr {
+  .aboutpage hr {
     width: 80%;
   }
   
