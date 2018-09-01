@@ -1,7 +1,7 @@
 ---
 layout: post
 title: BLOG
-post_title: Iron Man 3 IMAX
+post_title: Iron Man 3
 date: 2018-08-31
 ---
 
