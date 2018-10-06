@@ -157,8 +157,8 @@ body {
 
 .moment h1 {
   position: relative;
-  margin: 0 auto;
-  font-size: 80%;
+  font-size: 140%;
+  text-align: center;
 }
 
 .moment h2 {
