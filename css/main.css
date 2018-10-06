@@ -158,6 +158,9 @@ body {
 .moment h1 {
   position: relative;
   font-size: 140%;
+  padding: 0 0 5px 0;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
   text-align: center;
 }
 
