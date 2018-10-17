@@ -86,6 +86,16 @@ body {
 
 /* Resume / Coursework CSS */
 
+.resumeheader {
+  position: relative;
+  margin: left;
+  width: 70%;
+  padding: 20px;
+  top: 60px;
+  font-size: 125%;
+  font-weight: bold;
+}
+
 .category {
   position: relative;
   margin: 0 auto;
