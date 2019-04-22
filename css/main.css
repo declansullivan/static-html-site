@@ -120,6 +120,12 @@ body {
   left: 40px;
 }
 
+.hide {
+  position: relative;
+  margin: 0 auto;
+  width: 80%;
+}
+
 /* About CSS */
 
 .secondnav {
